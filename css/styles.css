@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/backLogo.png) ;
+    background-image: url(/BG.png) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -11,6 +11,7 @@ body {
 
 #nav a {
     color:rgb(69,135,111);
+    font-weight: bolder;
 }
   /* NAVBAR MENU */
   
@@ -21,10 +22,39 @@ body {
 }
   
   /* DROPDOWN MENU */
-  .dropdown {
+  .dropdown,.dropdown-menu {
     background-color: rgb(223,181,45);
   }
   
-  .dropdown li:hover {
+  .dropdown li:hover , .dropdown-item:hover {
     background-color:rgb(219, 190, 97);
   }
+#prodIMG {
+  width: 500px;
+  height: 600px;
+}
+#mainPage p {
+  color:rgb(69,135,111);
+  font-size:x-large;
+  font-weight: bolder;
+}
+#mainPage h1 {
+  color:rgb(69,135,111);
+  font-weight: bold;
+}
+#centerCards {
+  padding-left: auto;
+  padding-right: auto;
+}
+.under {
+  text-decoration: underline;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(69,135,111);
+}
+.btn:hover {
+  color: rgb(69,135,111);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(69,135,111);
+}
