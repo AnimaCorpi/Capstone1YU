@@ -1,5 +1,5 @@
 body {
-    background-image: url(/BG.png) ;
+    background-image: url(/newBG.png) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -57,4 +57,39 @@ body {
   color: rgb(69,135,111);
   background-color: rgb(255, 255, 255);
   border-color: rgb(69,135,111);
+}
+.login, h5 {
+  color: rgb(69,135,111);
+  font-weight: bolder;
+}
+h5,h1, h3, h4, a{
+  text-decoration: underline;
+  color:rgb(69,135,111);
+}
+.login:hover{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(69,135,111);
+  font-weight: bolder;
+}
+#leftAlign {
+  text-align: left;
+  font-weight: bolder;
+}
+#loginCheckout, #loginCheckout1{
+  background-image: url(/divBGTrans.png);
+}
+#centerCards img{
+  width: 285px;
+  height: 150px;
+}
+#rightAlign{
+  text-align: right;
+}
+#rightAlign .col {
+  align-items: right;
+}
+#loginCheckout1 {
+  font-size: 30px;
+  color: rgb(69,135,111);
+  font-weight: bolder;
 }
