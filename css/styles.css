@@ -1,33 +1,34 @@
 body {
     background-image: url(/newBG.png) ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% 100%;
 }
 
 .navbar {
-    background-color: rgb(223,181,45);
+    background-color: rgb(237,221,177);
 }
 
 #nav a {
     color:rgb(69,135,111);
     font-weight: bolder;
+    font-size: larger;
 }
   /* NAVBAR MENU */
   
 #nav li:hover, #nav-item:hover {
-    background-color: rgb(219, 190, 97);
+    background-color: rgb(223,181,45);
     border-radius: 5px;
     transition: 0.3s ease;
 }
   
   /* DROPDOWN MENU */
   .dropdown,.dropdown-menu {
-    background-color: rgb(223,181,45);
+    background-color: rgb(237,221,177);
   }
   
   .dropdown li:hover , .dropdown-item:hover {
-    background-color:rgb(219, 190, 97);
+    background-color:  rgb(223,181,45);
   }
 #prodIMG {
   width: 500px;
@@ -45,6 +46,7 @@ body {
 #centerCards {
   padding-left: auto;
   padding-right: auto;
+  align-content: center;
 }
 .under {
   text-decoration: underline;
@@ -62,7 +64,7 @@ body {
   color: rgb(69,135,111);
   font-weight: bolder;
 }
-h5,h1, h3, h4, a{
+h5,h1, h3, h6{
   text-decoration: underline;
   color:rgb(69,135,111);
 }
@@ -75,8 +77,9 @@ h5,h1, h3, h4, a{
   text-align: left;
   font-weight: bolder;
 }
-#loginCheckout, #loginCheckout1{
+#loginCheckout, #loginCheckout1, #home, #art, #soap{
   background-image: url(/divBGTrans.png);
+  border-radius: 25px;
 }
 #centerCards img{
   width: 285px;
@@ -90,6 +93,27 @@ h5,h1, h3, h4, a{
 }
 #loginCheckout1 {
   font-size: 30px;
+}
+#roundC {
+  border-radius: 25%;
+  background-image: url(/divBGTrans.png);
   color: rgb(69,135,111);
   font-weight: bolder;
+}
+#checkOut, #span1 {
+  background-image: url(/divBGTrans.png);
+  color: rgb(69,135,111);
+  font-weight: bolder;
+}
+#footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color:rgb(69,135,111);   
+  color: rgb(237,221,177);      /* Footer height */
+}
+.footer {
+  color: rgb(237,221,177);
 }
